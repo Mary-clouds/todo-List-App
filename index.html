@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Little Todo List</title>
+    <link rel="stylesheet" href="src/todoList.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>My Little ToDo List</h1>
+        <input type="text" id="todoListInput"   placeholder="add a Task here"/>
+        <button  onclick="displayTaskList()">add Task </button>
+        <button id="removeAllTasks">Clear all</button>
+        <hr/>
+        <h3>
+        <ul id="taskList">
+           
+        </ul>
+        </h3>
+        <script src="src/todoList.js"></script>
+    </div>
+</body>
+</html>
